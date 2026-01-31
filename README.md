@@ -1,4 +1,4 @@
-# Repository Pengumpulan Tugas Algoritma Pemrograman TI-B
+# Repository Pengumpulan Tugas Algoritma Pemrograman TI-C
 
 ## Aturan Pengumpulan
 1. Setiap mahasiswa membuat folder dengan format:

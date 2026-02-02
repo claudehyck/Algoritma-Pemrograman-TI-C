@@ -1,9 +1,10 @@
-#python for loops
-#Perulangan for digunakan untuk mengulang suatu urutan (baik berupa list, tuple, dictionary, set, atau string).
-#Ini kurang mirip dengan kata kunci for dalam bahasa pemrograman lain, dan lebih mirip dengan metode iterator seperti yang ditemukan dalam bahasa pemrograman berorientasi objek lainnya.
-#Dengan perulangan for, kita dapat mengeksekusi serangkaian pernyataan, satu kali untuk setiap item dalam list, tuple, set, dll.
+#Arguments
+#Informasi dapat diteruskan ke fungsi sebagai argumen.
+#Argumen ditentukan setelah nama fungsi, di dalam tanda kurung. Anda dapat menambahkan argumen sebanyak yang Anda inginkan, cukup pisahkan dengan koma.
+#Contoh berikut memiliki fungsi dengan satu argumen (fname). Saat fungsi dipanggil, kita meneruskan nama depan, yang digunakan di dalam fungsi untuk mencetak nama lengkap
+def my_function(fname):
+  print(fname + " ganteng")
 
-#contoh
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
+my_function("kamu")
+my_function("aku")
+my_function("kita")

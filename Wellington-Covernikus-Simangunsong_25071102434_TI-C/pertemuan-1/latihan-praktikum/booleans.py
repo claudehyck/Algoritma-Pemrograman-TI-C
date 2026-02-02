@@ -12,8 +12,8 @@ if b > a:
 else:
   print("b lebih kecil dari a")
 
-#Semua string, list, tuple, set, dictionary bernilai True selama ia tidak kosong
-#Semua nomor bernilai True selain angka 0
+#Semua string, list, tuple, set, dictionary bernilai True selama string-nya tidak kosong
+#Semua angka bernilai True selain angka 0
 print(bool("abc"))
 print(bool(123))
 print(bool(["apple", "cherry", "banana"]))
